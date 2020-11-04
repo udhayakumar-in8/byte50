@@ -16,5 +16,5 @@ int main(void)
 }
 void function(void)
 {
-    printf("%s", HELLO);
+    printf("%s\n", HELLO);
 }
