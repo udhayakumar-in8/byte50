@@ -1,0 +1,6 @@
+#include <stdio.h>
+// without command line argumments 
+int main() 
+{
+    printf("Hello World\n");
+}
