@@ -2,7 +2,7 @@
 message("===========BUILD_SYSTEM-INFO=============")
 
 cmake_host_system_information(RESULT _os_name QUERY OS_NAME)
-message("-- OPERATING_SYSTEM             : " ${_os_name})
+message("-- OPERATING_SYSTEM              : " ${_os_name})
 
 cmake_host_system_information(RESULT _host_name QUERY HOSTNAME)
 message("-- HOST_NAME                     : " ${_host_name})
