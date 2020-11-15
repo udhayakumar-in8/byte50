@@ -1,0 +1,3 @@
+/workspace/byte50/cmake/c-make/build/CMakeFiles/rebuild_cache.dir
+/workspace/byte50/cmake/c-make/build/CMakeFiles/edit_cache.dir
+/workspace/byte50/cmake/c-make/build/CMakeFiles/simple.dir
