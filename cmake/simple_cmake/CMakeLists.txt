@@ -14,11 +14,18 @@ cmake_host_system_information(RESULT _physical_cores QUERY NUMBER_OF_PHYSICAL_CO
 message("-- PHYSICAL_CORES                : " ${_physical_cores})
 
 cmake_host_system_information(RESULT _os_arch QUERY IS_64BIT)
-message("-- OPERATING_SYSTEM_ARCHITECTURE : " ${_os_arch})
-
+if (${_os_arch})
+    message("-- OPERATING_SYSTEM_ARCHITECTURE :64 bit")
+else()
+message("-- OPERATING_SYSTEM_ARCHITECTURE :32 bit")
+endif()
 
 # Specify the minimum version for CMake
 cmake_minimum_required(VERSION 2.8)
+
+#check the file exist or not
+if(EXISTS {)
+if
 message("========================================")
 
 # Project's name
