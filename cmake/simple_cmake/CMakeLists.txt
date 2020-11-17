@@ -23,13 +23,46 @@ endif()
 # Specify the minimum version for CMake
 cmake_minimum_required(VERSION 2.8)
 
-#check the file exist or not
-if(EXISTS {)
-if
+# Disable in-source builds to prevent source tree corruption.
+if(" ${CMAKE_SOURCE_DIR}" STREQUAL " ${CMAKE_BINARY_DIR}")
+  message(FATAL_ERROR "
+FATAL: In-source builds are not allowed.
+       You should create a separate directory for build files.
+")
+endif()
+
 message("========================================")
 
 # Project's name
 project(simple)
+
+#  compiler to build with C++14 with
+set(CMAKE_CXX_STANDARD 14)
+
+file(GLOB_RECURSE sources  src/*.c include/*.h)
+
+#set (ADD_SOURCE_DIR "../src/")
+
+set (ADD_INCLUDE_DIR #"${D}/usr/include/"
+					 #"${D}/usr/lib/"
+                                         "include/"
+					 "../src/"
+                     )					                
+
+# Add additional include directory.
+
+include_directories(${ADD_INCLUDE_DIR})
+#source_directories(${ADD_SOURCE_DIR})
+
+
+###############################################################################
+## target definitions #########################################################
+###############################################################################
+add_executable (${LIBRARY_NAME} ${sources})
+# Just for example add some compiler flags.
+target_compile_options(${LIBRARY_NAME} PUBLIC -g -Wall -Wno-write-strings )
+
+target_link_libraries(${LIBRARY_NAME} ${LIB_SOURCES})
 
 # Set the output folder where your program will be created
 
