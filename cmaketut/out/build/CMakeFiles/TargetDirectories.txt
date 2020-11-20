@@ -1,2 +1,0 @@
-/root/my_workspace/byte50/cmaketut/out/build/CMakeFiles/rebuild_cache.dir
-/root/my_workspace/byte50/cmaketut/out/build/CMakeFiles/edit_cache.dir

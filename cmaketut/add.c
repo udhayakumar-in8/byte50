@@ -1,7 +1,4 @@
-#include<stdio.h>
-int main(void)
+float add(float num1, float num2)
 {
-    printf("hey!cloud9\n");
-    printf("mainfunction completed!\n");
-    return 0;
+	return num1+num2;
 }
