@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/pro.dir/main.c.o -o pro  lib/libfadd.a 

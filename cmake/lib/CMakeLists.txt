@@ -1,0 +1,1 @@
+add_library(fadd add.c header.h)

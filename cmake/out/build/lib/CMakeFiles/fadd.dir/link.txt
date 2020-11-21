@@ -1,0 +1,2 @@
+/usr/bin/ar qc libfadd.a CMakeFiles/fadd.dir/add.c.o
+/usr/bin/ranlib libfadd.a
