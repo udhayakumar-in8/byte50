@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/algo_basic.dir/que.c.o -o algo_basic 

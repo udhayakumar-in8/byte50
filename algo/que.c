@@ -12,9 +12,7 @@ int Array[MAX];
 int main(void)
 {
 	printf("main Function Entering in Queue \n");
-	//Display contents
-	display();
-	
+
 	//pushing elements in queue
 	enqueue(1);
  	enqueue(2);
@@ -23,6 +21,9 @@ int main(void)
 	
 	//popout elements in enqueue
 	dequeue();
+
+	//Display contents
+	display();
 }
 
 void enqueue(int ei)
@@ -55,12 +56,13 @@ void dequeue()
 
 void display()
 {
+	printf("\nDisplay function\n");
 	if(rear == -1)
 		printf("Queue Is Empty!\n");
 	else
 	{
-		for(int i= rear; i <= front ; i++)
-			printf("the items are %d ,",Array[i]);
+		for(int i= front; i <= rear ; i++)
+			printf("the items are %d \n,",Array[i]);
 	}
 		
 }
