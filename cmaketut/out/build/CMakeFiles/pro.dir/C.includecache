@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/udhay/my_workspace/byte50/cmaketut/add.c
+
+/home/udhay/my_workspace/byte50/cmaketut/main.c
+stdio.h
+-
+

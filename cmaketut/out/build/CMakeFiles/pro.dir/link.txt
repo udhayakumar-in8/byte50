@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/pro.dir/main.c.o CMakeFiles/pro.dir/add.c.o -o pro 
