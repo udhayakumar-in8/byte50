@@ -67,10 +67,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /workspace/udhaya/byte50/cmake
+CMAKE_SOURCE_DIR = /workspace/udhaya/byte50/algo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /workspace/udhaya/byte50/cmake/out/build
+CMAKE_BINARY_DIR = /workspace/udhaya/byte50/algo/final/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspace/udhaya/byte50/cmake/out/build/CMakeFiles /workspace/udhaya/byte50/cmake/out/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspace/udhaya/byte50/algo/final/build/CMakeFiles /workspace/udhaya/byte50/algo/final/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspace/udhaya/byte50/cmake/out/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspace/udhaya/byte50/algo/final/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -130,57 +130,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named pro
+# Target rules for targets named algo_basic
 
 # Build rule for target.
-pro: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pro
-.PHONY : pro
+algo_basic: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 algo_basic
+.PHONY : algo_basic
 
 # fast build rule for target.
-pro/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pro.dir/build.make CMakeFiles/pro.dir/build
-.PHONY : pro/fast
+algo_basic/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/algo_basic.dir/build.make CMakeFiles/algo_basic.dir/build
+.PHONY : algo_basic/fast
 
-#=============================================================================
-# Target rules for targets named fadd
+que.o: que.c.o
 
-# Build rule for target.
-fadd: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fadd
-.PHONY : fadd
-
-# fast build rule for target.
-fadd/fast:
-	$(MAKE) $(MAKESILENT) -f lib/CMakeFiles/fadd.dir/build.make lib/CMakeFiles/fadd.dir/build
-.PHONY : fadd/fast
-
-main.o: main.c.o
-
-.PHONY : main.o
+.PHONY : que.o
 
 # target to build an object file
-main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pro.dir/build.make CMakeFiles/pro.dir/main.c.o
-.PHONY : main.c.o
+que.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/algo_basic.dir/build.make CMakeFiles/algo_basic.dir/que.c.o
+.PHONY : que.c.o
 
-main.i: main.c.i
+que.i: que.c.i
 
-.PHONY : main.i
+.PHONY : que.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pro.dir/build.make CMakeFiles/pro.dir/main.c.i
-.PHONY : main.c.i
+que.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/algo_basic.dir/build.make CMakeFiles/algo_basic.dir/que.c.i
+.PHONY : que.c.i
 
-main.s: main.c.s
+que.s: que.c.s
 
-.PHONY : main.s
+.PHONY : que.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pro.dir/build.make CMakeFiles/pro.dir/main.c.s
-.PHONY : main.c.s
+que.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/algo_basic.dir/build.make CMakeFiles/algo_basic.dir/que.c.s
+.PHONY : que.c.s
 
 # Help Target
 help:
@@ -190,11 +177,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... fadd"
-	@echo "... pro"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... algo_basic"
+	@echo "... que.o"
+	@echo "... que.i"
+	@echo "... que.s"
 .PHONY : help
 
 

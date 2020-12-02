@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/workspace/udhaya/byte50/cmake/lib/add.c" "/workspace/udhaya/byte50/cmake/out/build/lib/CMakeFiles/fadd.dir/add.c.o"
+  "/workspace/udhaya/byte50/algo/que.c" "/workspace/udhaya/byte50/algo/final/build/CMakeFiles/algo_basic.dir/que.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

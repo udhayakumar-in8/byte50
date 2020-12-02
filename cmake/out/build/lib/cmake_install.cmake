@@ -1,4 +1,4 @@
-# Install script for directory: /workspace/udhaya/byte50/cmaketut/lib
+# Install script for directory: /workspace/udhaya/byte50/cmake/lib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

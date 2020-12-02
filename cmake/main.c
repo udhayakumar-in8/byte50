@@ -1,6 +1,6 @@
 #include<stdio.h>
-
-float addition(float,float);
+ 
+float add(float,float);
 
 int main(void)
 {

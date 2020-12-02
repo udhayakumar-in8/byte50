@@ -67,10 +67,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /workspace/udhaya/byte50/cmaketut
+CMAKE_SOURCE_DIR = /workspace/udhaya/byte50/cmake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /workspace/udhaya/byte50/cmaketut/out/build
+CMAKE_BINARY_DIR = /workspace/udhaya/byte50/cmake/out/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,14 +99,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /workspace/udhaya/byte50/cmaketut/out/build && $(CMAKE_COMMAND) -E cmake_progress_start /workspace/udhaya/byte50/cmaketut/out/build/CMakeFiles /workspace/udhaya/byte50/cmaketut/out/build/lib//CMakeFiles/progress.marks
-	cd /workspace/udhaya/byte50/cmaketut/out/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspace/udhaya/byte50/cmaketut/out/build/CMakeFiles 0
+	cd /workspace/udhaya/byte50/cmake/out/build && $(CMAKE_COMMAND) -E cmake_progress_start /workspace/udhaya/byte50/cmake/out/build/CMakeFiles /workspace/udhaya/byte50/cmake/out/build/lib//CMakeFiles/progress.marks
+	cd /workspace/udhaya/byte50/cmake/out/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspace/udhaya/byte50/cmake/out/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /workspace/udhaya/byte50/cmaketut/out/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/clean
+	cd /workspace/udhaya/byte50/cmake/out/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/clean
 .PHONY : clean
 
 # The main clean target
@@ -116,22 +116,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /workspace/udhaya/byte50/cmaketut/out/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/preinstall
+	cd /workspace/udhaya/byte50/cmake/out/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /workspace/udhaya/byte50/cmaketut/out/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/preinstall
+	cd /workspace/udhaya/byte50/cmake/out/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /workspace/udhaya/byte50/cmaketut/out/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /workspace/udhaya/byte50/cmake/out/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/CMakeFiles/fadd.dir/rule:
-	cd /workspace/udhaya/byte50/cmaketut/out/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMakeFiles/fadd.dir/rule
+	cd /workspace/udhaya/byte50/cmake/out/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMakeFiles/fadd.dir/rule
 .PHONY : lib/CMakeFiles/fadd.dir/rule
 
 # Convenience name for target.
@@ -141,7 +141,7 @@ fadd: lib/CMakeFiles/fadd.dir/rule
 
 # fast build rule for target.
 fadd/fast:
-	cd /workspace/udhaya/byte50/cmaketut/out/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/fadd.dir/build.make lib/CMakeFiles/fadd.dir/build
+	cd /workspace/udhaya/byte50/cmake/out/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/fadd.dir/build.make lib/CMakeFiles/fadd.dir/build
 .PHONY : fadd/fast
 
 add.o: add.c.o
@@ -150,7 +150,7 @@ add.o: add.c.o
 
 # target to build an object file
 add.c.o:
-	cd /workspace/udhaya/byte50/cmaketut/out/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/fadd.dir/build.make lib/CMakeFiles/fadd.dir/add.c.o
+	cd /workspace/udhaya/byte50/cmake/out/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/fadd.dir/build.make lib/CMakeFiles/fadd.dir/add.c.o
 .PHONY : add.c.o
 
 add.i: add.c.i
@@ -159,7 +159,7 @@ add.i: add.c.i
 
 # target to preprocess a source file
 add.c.i:
-	cd /workspace/udhaya/byte50/cmaketut/out/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/fadd.dir/build.make lib/CMakeFiles/fadd.dir/add.c.i
+	cd /workspace/udhaya/byte50/cmake/out/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/fadd.dir/build.make lib/CMakeFiles/fadd.dir/add.c.i
 .PHONY : add.c.i
 
 add.s: add.c.s
@@ -168,7 +168,7 @@ add.s: add.c.s
 
 # target to generate assembly for a file
 add.c.s:
-	cd /workspace/udhaya/byte50/cmaketut/out/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/fadd.dir/build.make lib/CMakeFiles/fadd.dir/add.c.s
+	cd /workspace/udhaya/byte50/cmake/out/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/fadd.dir/build.make lib/CMakeFiles/fadd.dir/add.c.s
 .PHONY : add.c.s
 
 # Help Target
@@ -194,6 +194,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /workspace/udhaya/byte50/cmaketut/out/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /workspace/udhaya/byte50/cmake/out/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

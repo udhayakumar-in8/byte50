@@ -6,5 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/workspace/udhaya/byte50/cmake/lib/add.c
+/workspace/udhaya/byte50/algo/que.c
+stdio.h
+-
 
