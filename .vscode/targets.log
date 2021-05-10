@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat May  8 15:49:43 2021
+# Make data base, printed on Mon May 10 19:33:35 2021
 
 # Variables
 
@@ -87,7 +87,7 @@ PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/
 # environment
 GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
-SESSION_MANAGER = local/S551LB-7b2690cf:@/tmp/.ICE-unix/1241,unix/S551LB-7b2690cf:/tmp/.ICE-unix/1241
+SESSION_MANAGER = local/S551LB-7b2690cf:@/tmp/.ICE-unix/1232,unix/S551LB-7b2690cf:/tmp/.ICE-unix/1232
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
@@ -107,7 +107,7 @@ XDG_SESSION_DESKTOP = pantheon
 # environment
 SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 2516
+GIO_LAUNCHED_DESKTOP_FILE_PID = 2586
 # automatic
 %F = $(notdir $%)
 # environment
@@ -121,7 +121,7 @@ QT_QPA_PLATFORMTHEME = gtk3
 # default
 .LOADED := 
 # environment
-SSH_AGENT_PID = 1314
+SSH_AGENT_PID = 1307
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = Pantheon
 # environment
@@ -146,7 +146,6 @@ GNOME_DESKTOP_SESSION_ID = this-is-deprecated
 ^D = $(patsubst %/,%,$(dir $^))
 # environment
 LC_TIME = en_US.UTF-8
- 
 # default
 MAKE = $(MAKE_COMMAND)
 # default
@@ -156,7 +155,7 @@ QT_IM_MODULE = ibus
 # environment
 SHLVL = 0
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-f1b3f3d3-2c3a-46e8-9045-0a334199472d.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-635959e2-af57-476e-8516-7474b2f25074.sock
 # default
 MAKE_VERSION := 4.2.1
 # environment
@@ -174,7 +173,7 @@ LC_TELEPHONE = en_US.UTF-8
 # default
 MAKE_COMMAND := make
 # environment
-VSCODE_NODE_CACHED_DATA_DIR = /home/udhay/.config/VSCodium/CachedData/3c4e3df9e89829dce27b7b5c24508306b151f30d
+VSCODE_NODE_CACHED_DATA_DIR = /home/udhay/.config/VSCodium/CachedData/cfa2e218100323074ac1948c885448fdf4de2a7f
 # default
 .VARIABLES := 
 # automatic
@@ -184,7 +183,7 @@ LANGUAGE = en_US
 # environment
 XDG_SEAT_PATH = /org/freedesktop/DisplayManager/Seat0
 # environment
-VSCODE_IPC_HOOK = /run/user/1000/vscode-a6fbb5e6-1.55.2-main.sock
+VSCODE_IPC_HOOK = /run/user/1000/vscode-a6fbb5e6-1.56.0-main.sock
 # makefile
 MAKEFLAGS = pqrR
 # environment
@@ -195,6 +194,8 @@ MFLAGS = -pqrR
 BREAKPAD_DUMP_LOCATION = /home/udhay/.config/VSCodium/exthost Crash Reports
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
+# environment
+GDK_BACKEND = x11
 # environment
 LC_PAPER = en_US.UTF-8
 # environment
@@ -228,9 +229,9 @@ LC_ADDRESS = en_US.UTF-8
 # environment
 LANG = en_US.UTF-8
 # environment
-VSCODE_PID = 2516
+VSCODE_PID = 2586
 # variable set hash-table stats:
-# Load=108/1024=11%, Rehash=0, Collisions=12/130=9%
+# Load=109/1024=11%, Rehash=0, Collisions=12/131=9%
 
 # Pattern-specific Variable Values
 
@@ -238,10 +239,9 @@ VSCODE_PID = 2516
 
 # Directories
 
-# . (device 2067, inode 2237411): 6 files, no impossibilities.
- 
+# . (device 2067, inode 2237411): 7 files, no impossibilities.
 
-# 6 files, no impossibilities in 1 directories.
+# 7 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -278,6 +278,7 @@ makefile:
 
 # Not a target:
 GNUmakefile:
+ 
 #  Implicit rule search has been done.
 #  File does not exist.
 #  File has been updated.
@@ -291,12 +292,12 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 14 / storage = 123 B / avg = 8 B
-# current buf: size = 8162 B / used = 123 B / count = 14 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 15 / storage = 128 B / avg = 8 B
+# current buf: size = 8162 B / used = 128 B / count = 15 / avg = 8 B
 
-# strcache performance: lookups = 17 / hit rate = 17%
+# strcache performance: lookups = 18 / hit rate = 16%
 # hash-table stats:
-# Load=14/8192=0%, Rehash=0, Collisions=1/17=6%
-# Finished Make data base on Sat May  8 15:49:43 2021
+# Load=15/8192=0%, Rehash=0, Collisions=1/18=6%
+# Finished Make data base on Mon May 10 19:33:35 2021
 
  
