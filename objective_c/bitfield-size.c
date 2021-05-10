@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<limits.h>
+
 int count(unsigned int value)
 {
     int result = 0;
