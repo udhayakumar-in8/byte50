@@ -1,5 +1,5 @@
 #include<stdio.h>
-
+// counting the  bits
 int count(unsigned int value)
 {
     int result = 0;

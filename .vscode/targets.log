@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon May 10 19:33:35 2021
+# Make data base, printed on Tue May 11 09:51:09 2021
 
 # Variables
 
@@ -87,7 +87,7 @@ PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/
 # environment
 GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
-SESSION_MANAGER = local/S551LB-7b2690cf:@/tmp/.ICE-unix/1232,unix/S551LB-7b2690cf:/tmp/.ICE-unix/1232
+SESSION_MANAGER = local/S551LB-7b2690cf:@/tmp/.ICE-unix/1198,unix/S551LB-7b2690cf:/tmp/.ICE-unix/1198
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
@@ -107,7 +107,7 @@ XDG_SESSION_DESKTOP = pantheon
 # environment
 SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 2586
+GIO_LAUNCHED_DESKTOP_FILE_PID = 2115
 # automatic
 %F = $(notdir $%)
 # environment
@@ -121,7 +121,7 @@ QT_QPA_PLATFORMTHEME = gtk3
 # default
 .LOADED := 
 # environment
-SSH_AGENT_PID = 1307
+SSH_AGENT_PID = 1271
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = Pantheon
 # environment
@@ -155,7 +155,7 @@ QT_IM_MODULE = ibus
 # environment
 SHLVL = 0
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-635959e2-af57-476e-8516-7474b2f25074.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-b4db4bbc-7535-4eb8-903f-788883a4a27e.sock
 # default
 MAKE_VERSION := 4.2.1
 # environment
@@ -229,7 +229,7 @@ LC_ADDRESS = en_US.UTF-8
 # environment
 LANG = en_US.UTF-8
 # environment
-VSCODE_PID = 2586
+VSCODE_PID = 2115
 # variable set hash-table stats:
 # Load=109/1024=11%, Rehash=0, Collisions=12/131=9%
 
@@ -278,10 +278,10 @@ makefile:
 
 # Not a target:
 GNUmakefile:
- 
 #  Implicit rule search has been done.
 #  File does not exist.
 #  File has been updated.
+ 
 #  Failed to be updated.
 
 # files hash-table stats:
@@ -298,6 +298,6 @@ GNUmakefile:
 # strcache performance: lookups = 18 / hit rate = 16%
 # hash-table stats:
 # Load=15/8192=0%, Rehash=0, Collisions=1/18=6%
-# Finished Make data base on Mon May 10 19:33:35 2021
+# Finished Make data base on Tue May 11 09:51:09 2021
 
  
