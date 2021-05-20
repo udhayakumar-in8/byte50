@@ -18,9 +18,20 @@ y = name[:-4]
 print(y) 
 """
 #processing arrays
-name = ar.array('i',[34, 67, 89, 99, 44, 54, 11, 45])
+name = ar.array('i',[34, 67, 89, 99, 44, 34, 11, 45])
+#appending
 name.append(30)
 name.append(431)
-print(name)
+# insert position at loc
+name.insert(0, 555)
+name.insert(3, 783)
+#removing position
+name.pop()
+n = name.index(44)
+#convert the list
+lst = name.tolist()
+print("list",lst)
+
+print(n)
 
 
