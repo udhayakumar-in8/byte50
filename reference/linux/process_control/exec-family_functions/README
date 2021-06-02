@@ -1,0 +1,29 @@
+The base of each is exec (execute), followed by one or more letters:
+
+    e – An array of pointers to environment variables is explicitly passed to the new process image.
+    l – Command-line arguments are passed individually (a list) to the function.
+    p – Uses the PATH environment variable to find the file named in the file argument to be executed.
+    v – Command-line arguments are passed to the function as an array (vector) of pointers.
+
+path:
+ The argument specifies the path name of the file to execute as the new process image. 
+ Arguments beginning at arg0 are pointers to arguments to be passed to the new process image.
+ The argv value is an array of pointers to arguments. 
+ 
+ arg0:
+  The first argument arg0 should be the name of the executable file. Usually it is the same value as the path argument. Some programs may incorrectly rely on this argument providing the location of the executable, but there is no guarantee of this nor is it 
+    standardized across platforms.
+
+envp:
+ Argument envp is an array of pointers to environment settings.
+ The exec calls named ending with an e alter the environment for the 
+ new process image by passing a list of environment settings through the envp argument. 
+ This argument is an array of character pointers; 
+ each element (except for the final element) points to a null-terminated string 
+ defining an environment variable.
+
+Each null-terminated string has the form:
+    name=value
+where name is the environment variable name, and value is the value of that variable. 
+The final element of the envp array must be null.
+

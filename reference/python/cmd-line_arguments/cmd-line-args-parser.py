@@ -2,7 +2,7 @@
 import argparse
 #creating object
 parse = argparse.ArgumentParser()
-#adding to argument parser with entering argumnt  limit =2
+#adding to argument parser with entering argumnt  limit >2
 parse.add_argument('nums',type = int , nargs = '*')
 # fetching the parguments
 arguments = parse.parse_args()

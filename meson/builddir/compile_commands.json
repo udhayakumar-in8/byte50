@@ -1,0 +1,8 @@
+[
+  {
+    "directory": "/home/udhay/workspace/meson/builddir",
+    "command": "cc -Ifinal_exe@exe -I. -I.. -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -MD -MQ 'final_exe@exe/hello.c.o' -MF 'final_exe@exe/hello.c.o.d' -o 'final_exe@exe/hello.c.o' -c ../hello.c",
+    "file": "../hello.c",
+    "output": "final_exe@exe/hello.c.o"
+  }
+]
