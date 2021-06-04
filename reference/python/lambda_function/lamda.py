@@ -28,9 +28,42 @@ print("the list is ",lst)
 # optimize the above code
 lst = [1, 4, 6, 3, 7, 9, 34] 
 lst = list(filter(lambda x: (x %2 == 0), lst))
-print(lst)
-    """
-    
+print(lst) 
 #map function access the each element of sequances 
-#  map(function,sequence)
+
+#map(function,sequence)
+def sqre(x):
+    return x * x
+lst = [3, 5, 7, 2, 34,64]
+print("map function")
+lis = list(map(sqre,lst))
+print(lis)
+
+#map optimized way
+lst = [3, 6, 2, 3, 1, 67]
+print(lst)
+lst = list(map((lambda x : x + 2),lst))
+print(lst)
+
+#reduce functions in c
+from functools import *
+lst = [1, 4, 6, 9, 3]
+res = reduce(lambda x, y: x*y , lst)
+print(res)
+"""
+#decortoes function
+""" it like call back function in c"""
+def decor(fun) :
+    def inner() :
+      value = fun()
+      return value+2
+    return inner
+print("main thread")
+@decor
+def number() :
+    return 42
+#call the number function
+print("final result is", number())
+
+
 
